@@ -160,7 +160,6 @@ static void ShowThemeList(void) {
     UIWindow *w = nil;
     for (UIWindow *x in [UIApplication sharedApplication].windows)
         if (x.isKeyWindow || x.windowLevel == UIWindowLevelNormal) { w = x; break; }
-    if (!w) w = [UIApplication sharedApplication].keyWindow;
     UIViewController *top = w.rootViewController;
     while (top.presentedViewController) top = top.presentedViewController;
     if ([top isKindOfClass:[UINavigationController class]])
