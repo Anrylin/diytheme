@@ -1,0 +1,9 @@
+Package: com.yg.diytheme
+Name: DIYTheme
+Version: 1.0.0
+Architecture: iphoneos-arm
+Description: DIY theme importer for WeChat
+Maintainer: yg
+Author: yg
+Section: Tweaks
+Depends: mobilesubstrate
